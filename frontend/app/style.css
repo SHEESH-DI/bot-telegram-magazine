@@ -1,0 +1,61 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color-scheme: light dark;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+button,
+input {
+  font: inherit;
+  padding: 6px 10px;
+}
+button {
+  cursor: pointer;
+  margin: 4px;
+}
+button:disabled {
+  cursor: default;
+}
+label {
+  display: block;
+  margin: 12px 0;
+}
+input {
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+section {
+  margin-top: 28px;
+  border-top: 1px solid #888;
+  padding-top: 12px;
+}
+.products {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0;
+}
+.products li {
+  width: 220px;
+  overflow-wrap: anywhere;
+}
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+[role="alert"] {
+  color: #c43b35;
+}

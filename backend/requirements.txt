@@ -1,0 +1,7 @@
+fastapi>=0.119,<1
+uvicorn>=0.34,<1
+psycopg[binary]>=3.2,<4
+minio>=7.2,<8
+aiogram>=3.22,<4
+pydantic-settings>=2.10,<3
+Pillow>=11.3,<13
